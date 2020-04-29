@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C73ABEF2456F5DF00E298F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73ABEE2456F5DF00E298F9 /* AppDelegate.swift */; };
+		1C73ABF32456F5E100E298F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C73ABF22456F5E100E298F9 /* Assets.xcassets */; };
+		1C73ABF62456F5E100E298F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C73ABF42456F5E100E298F9 /* Main.storyboard */; };
+		1C73ABFF2456FC2700E298F9 /* ScreenshotPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73ABFE2456FC2700E298F9 /* ScreenshotPanel.swift */; };
+		1C73AC012456FC4100E298F9 /* ScreenshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73AC002456FC4100E298F9 /* ScreenshotView.swift */; };
+		1C73AC032456FCAE00E298F9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73AC022456FCAE00E298F9 /* Extensions.swift */; };
+		877260B8EB5568349B15E527 /* Pods_ScanTextFromImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A075A873029F6A2D83470668 /* Pods_ScanTextFromImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C73ABEB2456F5DF00E298F9 /* ScanTextFromImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanTextFromImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C73ABEE2456F5DF00E298F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C73ABF22456F5E100E298F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C73ABF52456F5E100E298F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C73ABF72456F5E100E298F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C73ABF82456F5E100E298F9 /* ScanTextFromImage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScanTextFromImage.entitlements; sourceTree = "<group>"; };
+		1C73ABFE2456FC2700E298F9 /* ScreenshotPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotPanel.swift; sourceTree = "<group>"; };
+		1C73AC002456FC4100E298F9 /* ScreenshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotView.swift; sourceTree = "<group>"; };
+		1C73AC022456FCAE00E298F9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3807D6398433F92C05E7DFDF /* Pods-ScanTextFromImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanTextFromImage.release.xcconfig"; path = "Target Support Files/Pods-ScanTextFromImage/Pods-ScanTextFromImage.release.xcconfig"; sourceTree = "<group>"; };
+		4C97D3036C27B200928AC90C /* Pods-ScanTextFromImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanTextFromImage.debug.xcconfig"; path = "Target Support Files/Pods-ScanTextFromImage/Pods-ScanTextFromImage.debug.xcconfig"; sourceTree = "<group>"; };
+		A075A873029F6A2D83470668 /* Pods_ScanTextFromImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanTextFromImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C73ABE82456F5DF00E298F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877260B8EB5568349B15E527 /* Pods_ScanTextFromImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C73ABE22456F5DF00E298F9 = {
+			isa = PBXGroup;
+			children = (
+				1C73ABED2456F5DF00E298F9 /* ScanTextFromImage */,
+				1C73ABEC2456F5DF00E298F9 /* Products */,
+				CF4A9464A509B5B26AA06645 /* Pods */,
+				651479D409DA0CB026CD59B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C73ABEC2456F5DF00E298F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C73ABEB2456F5DF00E298F9 /* ScanTextFromImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C73ABED2456F5DF00E298F9 /* ScanTextFromImage */ = {
+			isa = PBXGroup;
+			children = (
+				1C73AC022456FCAE00E298F9 /* Extensions.swift */,
+				1C73ABEE2456F5DF00E298F9 /* AppDelegate.swift */,
+				1C73ABFE2456FC2700E298F9 /* ScreenshotPanel.swift */,
+				1C73AC002456FC4100E298F9 /* ScreenshotView.swift */,
+				1C73ABF22456F5E100E298F9 /* Assets.xcassets */,
+				1C73ABF42456F5E100E298F9 /* Main.storyboard */,
+				1C73ABF72456F5E100E298F9 /* Info.plist */,
+				1C73ABF82456F5E100E298F9 /* ScanTextFromImage.entitlements */,
+			);
+			path = ScanTextFromImage;
+			sourceTree = "<group>";
+		};
+		651479D409DA0CB026CD59B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A075A873029F6A2D83470668 /* Pods_ScanTextFromImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4A9464A509B5B26AA06645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C97D3036C27B200928AC90C /* Pods-ScanTextFromImage.debug.xcconfig */,
+				3807D6398433F92C05E7DFDF /* Pods-ScanTextFromImage.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C73ABEA2456F5DF00E298F9 /* ScanTextFromImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C73ABFB2456F5E100E298F9 /* Build configuration list for PBXNativeTarget "ScanTextFromImage" */;
+			buildPhases = (
+				D564089744CB9222AD801A14 /* [CP] Check Pods Manifest.lock */,
+				1C73ABE72456F5DF00E298F9 /* Sources */,
+				1C73ABE82456F5DF00E298F9 /* Frameworks */,
+				1C73ABE92456F5DF00E298F9 /* Resources */,
+				4796EABF8D79BFFEE9299D4D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanTextFromImage;
+			productName = ScanTextFromImage;
+			productReference = 1C73ABEB2456F5DF00E298F9 /* ScanTextFromImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C73ABE32456F5DF00E298F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Takuto Nakamura";
+				TargetAttributes = {
+					1C73ABEA2456F5DF00E298F9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1C73ABE62456F5DF00E298F9 /* Build configuration list for PBXProject "ScanTextFromImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C73ABE22456F5DF00E298F9;
+			productRefGroup = 1C73ABEC2456F5DF00E298F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C73ABEA2456F5DF00E298F9 /* ScanTextFromImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C73ABE92456F5DF00E298F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C73ABF32456F5E100E298F9 /* Assets.xcassets in Resources */,
+				1C73ABF62456F5E100E298F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4796EABF8D79BFFEE9299D4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanTextFromImage/Pods-ScanTextFromImage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanTextFromImage/Pods-ScanTextFromImage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScanTextFromImage/Pods-ScanTextFromImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D564089744CB9222AD801A14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanTextFromImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C73ABE72456F5DF00E298F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C73AC032456FCAE00E298F9 /* Extensions.swift in Sources */,
+				1C73AC012456FC4100E298F9 /* ScreenshotView.swift in Sources */,
+				1C73ABFF2456FC2700E298F9 /* ScreenshotPanel.swift in Sources */,
+				1C73ABEF2456F5DF00E298F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C73ABF42456F5E100E298F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C73ABF52456F5E100E298F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C73ABF92456F5E100E298F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C73ABFA2456F5E100E298F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1C73ABFC2456F5E100E298F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C97D3036C27B200928AC90C /* Pods-ScanTextFromImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScanTextFromImage/ScanTextFromImage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = VJ5N2X84K8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ScanTextFromImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.ScanTextFromImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1C73ABFD2456F5E100E298F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3807D6398433F92C05E7DFDF /* Pods-ScanTextFromImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScanTextFromImage/ScanTextFromImage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = VJ5N2X84K8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ScanTextFromImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.ScanTextFromImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C73ABE62456F5DF00E298F9 /* Build configuration list for PBXProject "ScanTextFromImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C73ABF92456F5E100E298F9 /* Debug */,
+				1C73ABFA2456F5E100E298F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C73ABFB2456F5E100E298F9 /* Build configuration list for PBXNativeTarget "ScanTextFromImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C73ABFC2456F5E100E298F9 /* Debug */,
+				1C73ABFD2456F5E100E298F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C73ABE32456F5DF00E298F9 /* Project object */;
+}
