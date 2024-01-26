@@ -81,6 +81,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             NSPasteboard.general.setString(text, forType: .string)
             NSSound(named: "Glass")?.play()
         }
+        request.recognitionLevel = .accurate
+        request.recognitionLanguages = ["ja-JP","en-US"]
+        
         let requestHandler = VNImageRequestHandler(cgImage: screenshot, orientation: .up, options: [:])
         try? requestHandler.perform([request])
         closePanels()
