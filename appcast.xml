@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>TextScanner</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 18 Jan 2025 21:28:13 +0900</pubDate>
+            <sparkle:version>1.0.0</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Kyome22/TextScanner/releases/download/1.0.0/Installer.dmg" length="1695568" type="application/octet-stream" sparkle:edSignature="2Kb166qwnSK4VKNVCr9n2v3H5URNy4M/w+1OXbt/w+68U6PsgPorZ30B1Jxrf/3SW/Hn+U5iJ6e79o4NRCzLCA=="/>
+        </item>
+    </channel>
+</rss>
