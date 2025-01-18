@@ -6,13 +6,20 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About App"
+            "value" : "About TextScanner"
           }
         }
       }
     },
     "checkForUpdates" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check for Updates…"
+          }
+        }
+      }
     },
     "scanText" : {
       "localizations" : {
@@ -29,7 +36,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terminate App"
+            "value" : "Quit TextScanner"
           }
         }
       }
