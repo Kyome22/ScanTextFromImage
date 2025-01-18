@@ -29,12 +29,14 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-log.git", exact: "1.6.2"),
         .package(url: "https://github.com/Kyome22/WindowSceneKit.git", exact: "1.1.0"),
+        .package(url: "https://github.com/sparkle-project/Sparkle.git", exact: "2.6.4"),
     ],
     targets: [
         .target(
             name: "DataLayer",
             dependencies: [
                 .product(name: "Logging", package: "swift-log"),
+                .product(name: "Sparkle", package: "Sparkle"),
                 .product(name: "WindowSceneKit", package: "WindowSceneKit"),
             ],
             swiftSettings: swiftSettings

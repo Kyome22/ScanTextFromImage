@@ -1,6 +1,6 @@
 //
-//  ScanTextFromImageApp.swift
-//  ScanTextFromImage
+//  TextScannerApp.swift
+//  TextScanner
 //
 //  Created by Takuto Nakamura on 2025/01/13.
 //
@@ -12,7 +12,7 @@ import WindowSceneKit
 import Vision
 
 @main
-struct ScanTextFromImageApp: App {
+struct TextScannerApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @WindowState(.screenshot) private var isPresented = false
 

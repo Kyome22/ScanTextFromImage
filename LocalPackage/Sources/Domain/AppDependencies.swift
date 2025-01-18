@@ -8,6 +8,7 @@ public final class AppDependencies: Sendable {
     public let nsPasteboardClient: NSPasteboardClient
     public let nsSoundClient: NSSoundClient
     public let screenCaptureClient: ScreenCaptureClient
+    public let spuUpdaterClient: SPUUpdaterClient
     public let textRecognitionClient: TextRecognitionClient
     public let windowSceneMessengerClient: WindowSceneMessengerClient
 
@@ -18,6 +19,7 @@ public final class AppDependencies: Sendable {
         nsPasteboardClient: NSPasteboardClient = .liveValue,
         nsSoundClient: NSSoundClient = .liveValue,
         screenCaptureClient: ScreenCaptureClient = .liveValue,
+        spuUpdaterClient: SPUUpdaterClient = .liveValue,
         textRecognitionClient: TextRecognitionClient = .liveValue,
         windowSceneMessengerClient: WindowSceneMessengerClient = .liveValue
     ) {
@@ -27,6 +29,7 @@ public final class AppDependencies: Sendable {
         self.nsPasteboardClient = nsPasteboardClient
         self.nsSoundClient = nsSoundClient
         self.screenCaptureClient = screenCaptureClient
+        self.spuUpdaterClient = spuUpdaterClient
         self.textRecognitionClient = textRecognitionClient
         self.windowSceneMessengerClient = windowSceneMessengerClient
     }
@@ -40,6 +43,7 @@ struct AppDependenciesKey: EnvironmentKey {
         nsPasteboardClient: .testValue,
         nsSoundClient: .testValue,
         screenCaptureClient: .testValue,
+        spuUpdaterClient: .testValue,
         textRecognitionClient: .testValue,
         windowSceneMessengerClient: .testValue
     )

@@ -8,9 +8,10 @@ struct MenuView: View {
     init(
         nsAppClient: NSAppClient,
         windowSceneMessengerClient: WindowSceneMessengerClient,
-        logService: LogService
+        logService: LogService,
+        updateService: UpdateService
     ) {
-        viewModel = .init(nsAppClient, windowSceneMessengerClient, logService)
+        viewModel = .init(nsAppClient, windowSceneMessengerClient, logService, updateService)
     }
 
     var body: some View {
@@ -21,6 +22,14 @@ struct MenuView: View {
                 Text("scanText", bundle: .module)
             }
             Divider()
+            Button {
+                Task {
+                    await viewModel.checkForUpdates()
+                }
+            } label: {
+                Text("checkForUpdates", bundle: .module)
+            }
+            .disabled(!viewModel.canChecksForUpdates)
             Button {
                 viewModel.openAbout()
             } label: {
@@ -35,6 +44,9 @@ struct MenuView: View {
         .onAppear {
             viewModel.onAppear(screenName: String(describing: Self.self))
         }
+        .onDisappear {
+            viewModel.onDisappear()
+        }
     }
 }
 
@@ -42,6 +54,7 @@ struct MenuView: View {
     MenuView(
         nsAppClient: .testValue,
         windowSceneMessengerClient: .testValue,
-        logService: .init(.testValue)
+        logService: .init(.testValue),
+        updateService: .init(.testValue)
     )
 }

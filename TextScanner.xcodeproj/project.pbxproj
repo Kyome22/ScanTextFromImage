@@ -13,27 +13,27 @@
 
 /* Begin PBXFileReference section */
 		1C5CF5502D3B7E720090F963 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
-		1CD5D7DB2D353CC60088B889 /* ScanTextFromImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanTextFromImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD5D7DB2D353CC60088B889 /* TextScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD5D7F42D353DBE0088B889 /* LocalPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LocalPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1CD5D7FB2D37A3410088B889 /* Exceptions for "ScanTextFromImage" folder in "ScanTextFromImage" target */ = {
+		1CD5D7FB2D37A3410088B889 /* Exceptions for "TextScanner" folder in "TextScanner" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 1CD5D7DA2D353CC60088B889 /* ScanTextFromImage */;
+			target = 1CD5D7DA2D353CC60088B889 /* TextScanner */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1CD5D7DD2D353CC60088B889 /* ScanTextFromImage */ = {
+		1CD5D7DD2D353CC60088B889 /* TextScanner */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				1CD5D7FB2D37A3410088B889 /* Exceptions for "ScanTextFromImage" folder in "ScanTextFromImage" target */,
+				1CD5D7FB2D37A3410088B889 /* Exceptions for "TextScanner" folder in "TextScanner" target */,
 			);
-			path = ScanTextFromImage;
+			path = TextScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				1CD5D7F42D353DBE0088B889 /* LocalPackage */,
-				1CD5D7DD2D353CC60088B889 /* ScanTextFromImage */,
+				1CD5D7DD2D353CC60088B889 /* TextScanner */,
 				1CD5D7F52D35401B0088B889 /* Frameworks */,
 				1CD5D7DC2D353CC60088B889 /* Products */,
 			);
@@ -64,7 +64,7 @@
 		1CD5D7DC2D353CC60088B889 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CD5D7DB2D353CC60088B889 /* ScanTextFromImage.app */,
+				1CD5D7DB2D353CC60088B889 /* TextScanner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CD5D7DA2D353CC60088B889 /* ScanTextFromImage */ = {
+		1CD5D7DA2D353CC60088B889 /* TextScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CD5D7EA2D353CC80088B889 /* Build configuration list for PBXNativeTarget "ScanTextFromImage" */;
+			buildConfigurationList = 1CD5D7EA2D353CC80088B889 /* Build configuration list for PBXNativeTarget "TextScanner" */;
 			buildPhases = (
 				1CD5D7D72D353CC60088B889 /* Sources */,
 				1CD5D7D82D353CC60088B889 /* Frameworks */,
@@ -93,15 +93,15 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1CD5D7DD2D353CC60088B889 /* ScanTextFromImage */,
+				1CD5D7DD2D353CC60088B889 /* TextScanner */,
 			);
-			name = ScanTextFromImage;
+			name = TextScanner;
 			packageProductDependencies = (
 				1CAE4BBD2D3B8E3500EBBE15 /* Domain */,
 				1CAE4BBF2D3B8E3500EBBE15 /* Presentation */,
 			);
-			productName = ScanTextFromImage;
-			productReference = 1CD5D7DB2D353CC60088B889 /* ScanTextFromImage.app */;
+			productName = TextScanner;
+			productReference = 1CD5D7DB2D353CC60088B889 /* TextScanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1CD5D7D62D353CC60088B889 /* Build configuration list for PBXProject "ScanTextFromImage" */;
+			buildConfigurationList = 1CD5D7D62D353CC60088B889 /* Build configuration list for PBXProject "TextScanner" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CD5D7DA2D353CC60088B889 /* ScanTextFromImage */,
+				1CD5D7DA2D353CC60088B889 /* TextScanner */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ScanTextFromImage/ScanTextFromImage.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TextScanner/TextScanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0;
@@ -289,7 +289,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScanTextFromImage/Info.plist;
+				INFOPLIST_FILE = TextScanner/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2025 Takuto Nakamura.";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,7 +297,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.ScanTextFromImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.TextScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 6.0;
@@ -308,7 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ScanTextFromImage/ScanTextFromImage.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TextScanner/TextScanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0;
@@ -316,7 +316,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScanTextFromImage/Info.plist;
+				INFOPLIST_FILE = TextScanner/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2025 Takuto Nakamura.";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +324,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.ScanTextFromImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.TextScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 6.0;
@@ -334,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CD5D7D62D353CC60088B889 /* Build configuration list for PBXProject "ScanTextFromImage" */ = {
+		1CD5D7D62D353CC60088B889 /* Build configuration list for PBXProject "TextScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CD5D7E82D353CC80088B889 /* Debug */,
@@ -343,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CD5D7EA2D353CC80088B889 /* Build configuration list for PBXNativeTarget "ScanTextFromImage" */ = {
+		1CD5D7EA2D353CC80088B889 /* Build configuration list for PBXNativeTarget "TextScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CD5D7EB2D353CC80088B889 /* Debug */,

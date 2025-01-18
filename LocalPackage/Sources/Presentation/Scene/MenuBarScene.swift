@@ -11,7 +11,8 @@ public struct MenuBarScene: Scene {
             MenuView(
                 nsAppClient: appDependencies.nsAppClient,
                 windowSceneMessengerClient: appDependencies.windowSceneMessengerClient,
-                logService: appServices.logService
+                logService: appServices.logService,
+                updateService: appServices.updateService
             )
             .environment(\.displayScale, 2.0)
         } label: {
