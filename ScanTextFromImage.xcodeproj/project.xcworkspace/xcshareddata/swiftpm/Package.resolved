@@ -1,0 +1,24 @@
+{
+  "originHash" : "63fb881b4179f501cc40510d36b4f64fc533614fe917d84f3d5bb0afba5f8d58",
+  "pins" : [
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "96a2f8a0fa41e9e09af4585e2724c4e825410b91",
+        "version" : "1.6.2"
+      }
+    },
+    {
+      "identity" : "windowscenekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kyome22/WindowSceneKit.git",
+      "state" : {
+        "revision" : "dd80b2169b64761b986d7185ba528def719656d8",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
