@@ -18,10 +18,6 @@ struct TextScannerApp: App {
 
     var body: some Scene {
         MenuBarScene()
-            .environment(\.appDependencies, appDelegate.appDependencies)
-            .environment(\.appServices, appDelegate.appServices)
         ScreenshotScene(isPresented: $isPresented)
-            .environment(\.appDependencies, appDelegate.appDependencies)
-            .environment(\.appServices, appDelegate.appServices)
     }
 }

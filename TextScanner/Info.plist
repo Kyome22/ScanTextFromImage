@@ -4,9 +4,9 @@
 <dict>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
-	<key>SUPublicEDKey</key>
-	<string>H+mzmuAVU+p1v5K8KtAddpQ1wjOYtFPnR3hN4TnsOII=</string>
 	<key>SUFeedURL</key>
 	<string>https://raw.githubusercontent.com/Kyome22/TextScanner/main/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>sluXMipVziYgkZOrrbO59J51dGAj0bFgFEDydaRi52k=</string>
 </dict>
 </plist>
